@@ -1,7 +1,7 @@
 
-from File_functions import create_file, print_out_contents
+from File_functions import create_file, read_file
 import os
 
-file_name = create_file()
-show_content = file_name.readlines()
-print(show_content)
+created_file = create_file()
+
+
